@@ -86,3 +86,5 @@ exclude:
   - CNAME
   - .editorconfig
   - .gitignore
+
+timezone: America/New_York
