@@ -49,6 +49,12 @@ url: http://rvenutolo.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "/jekyll-now-test"
 
+# The time zone for site generation. This sets the TZ environment variable, which Ruby
+# uses to handle time and date creation and manipulation. Any entry from the IANA Time
+# Zone Database is valid, e.g. America/New_York. The default is the local time zone,
+# as set by your operating system.
+timezone: America/New_York
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -86,5 +92,3 @@ exclude:
   - CNAME
   - .editorconfig
   - .gitignore
-
-timezone: America/New_York
