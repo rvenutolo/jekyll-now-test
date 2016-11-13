@@ -92,3 +92,5 @@ exclude:
   - CNAME
   - .editorconfig
   - .gitignore
+
+include: ['_pages']
